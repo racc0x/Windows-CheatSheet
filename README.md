@@ -2,7 +2,7 @@
 | **Command**                                                    | **Description**                                                         |
 | -------------------------------------------------------------- | ----------------------------------------------------------------------- |
 | `xfreerdp /v:<target IP address> /u:htb-student /p:<password>` | RDP to lab target                                                       |
-| `Get-WmiObject -Class win32_OperatingSystem | select Version,BuildNumber`                                                                |
+| `Get-WmiObject -Class win32_OperatingSystem \| select Version,BuildNumber`                                                               |
 |  `Get-WmiObject -Class win32_OperatingSystem`                  | Get information about the operating system                              |
 | `dir c:\ /a`                                                   | View all files and directories in the c:\ root directory                |
 | `tree <directory>`                                             | Graphically displaying the directory structure of a path                |
