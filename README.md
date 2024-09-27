@@ -15,6 +15,7 @@
 | `Get-Service \| ? {$_.Status -eq "Running"} \| select -First 2 \|fl`                                                                     |
 | `help <command>`                                               | Display the help menu for a specific command                            |
 | `get-alias`                                                    | List `PowerShell` aliases                                               |
+| `sc qc {service}`                                              | Query the service                                                       |
 | `New-Alias -Name "Show-Files" Get-ChildItem`                   | Create a new `PowerShell` alias                                         |
 | `Get-Module \| select Name,ExportedCommands \| fl`             | View imported `PowerShell` modules and their associated commands        |
 | `Get-ExecutionPolicy -List`                                    | View the `PowerShell` execution policy                                  |
