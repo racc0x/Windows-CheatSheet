@@ -12,6 +12,7 @@
 | `icacls c:\users /grant joe:f`                                 | Grant a user full permissions to a directory                            |
 | `icacls c:\users /remove joe`                                  | Remove a users' permissions on a directory                              |
 | `Get-Service`                                                  | `PowerShell` cmdlet to view running services                            |
+| `Get-Service \| ? {$_.Status -eq "Running"} \| select -First 2 \|fl`                                                                     |
 | `help <command>`                                               | Display the help menu for a specific command                            |
 | `get-alias`                                                    | List `PowerShell` aliases                                               |
 | `New-Alias -Name "Show-Files" Get-ChildItem`                   | Create a new `PowerShell` alias                                         |
