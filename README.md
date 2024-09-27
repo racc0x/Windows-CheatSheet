@@ -13,6 +13,7 @@
 | `icacls c:\users /remove joe`                                  | Remove a users' permissions on a directory                              |
 | `Get-Service`                                                  | `PowerShell` cmdlet to view running services                            |
 | `Get-Service \| ? {$_.Status -eq "Running"} \| select -First 2 \|fl`                                                                     |
+| `Get-ACL -Path HKLM:\System\CurrentControlSet\Services\wuauserv \| Format-List` | Examine service permissions of a specific service      |
 | `help <command>`                                               | Display the help menu for a specific command                            |
 | `get-alias`                                                    | List `PowerShell` aliases                                               |
 | `sc qc {service}`                                              | Query the service                                                       |
