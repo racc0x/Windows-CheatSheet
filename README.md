@@ -1,4 +1,5 @@
 # Windows-CheatSheet
+# Permissions: https://ss64.com/nt/icacls.html
 | **Command**                                                    | **Description**                                                         |
 | -------------------------------------------------------------- | ----------------------------------------------------------------------- |
 | `xfreerdp /v:<target IP address> /u:htb-student /p:<password>` | RDP to lab target                                                       |
